@@ -4,7 +4,7 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 // import "../styles/bootstrap.scss"
 import "../styles/about.css"
-// import "bootstrap/dist/css/bootstrap.css"
+import "bootstrap/dist/css/bootstrap.css"
 import {
   FaDrum,
   FaMusic,
@@ -15,8 +15,8 @@ import {
 } from "react-icons/fa"
 
 import { Container, Row, Col } from "reactstrap"
-import sample from "../images/vid.mp4"
-import lights from "../images/lights.mp4"
+// import sample from "../images/vid.mp4"
+// import lights from "../images/lights.mp4"
 import Example from "./carousel"
 
 const IndexPage = () => (
