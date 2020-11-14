@@ -24,13 +24,10 @@ const IndexPage = () => (
     <SEO title="Home" />
     <Container>
       <Row id="first">
-        <Col>
-          <div className="">
-            {/*<video className="videoTag" autoPlay loop muted>
+        <Col xs={12} md={6}>
+          {/*<video className="videoTag" autoPlay loop muted>
               <source src={sample} type="video/mp4" />
             </video>*/}
-          </div>
-
           <div className="hello">
             <h1>Hi people </h1>
             <p>

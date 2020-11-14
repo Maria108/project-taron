@@ -1,14 +1,10 @@
-body {
-  /* background-color: #000; */
-}
-
 #first {
   background-repeat: no-repeat;
   background-size: cover;
   background-image: url('../images/bck.jpeg');
   background-attachment: fixed;
   height: 90vh;
-
+  margin-top: 20px;
 }
 
 .videoTag {
@@ -49,9 +45,9 @@ body {
 
 .hello {
   position: relative;
-  margin-top: 100px;
-  margin-left: 100px;
-  margin-right: 500px;
+  margin-top: 90px;
+  margin-left: 50px;
+  /* margin-right: 500px; */
   animation: mymove 3s;
   animation-timing-function: ease;
 }
@@ -102,7 +98,7 @@ body {
 
 @keyframes mymove {
   from {left: -150px;}
-  to {left: 15px;}
+  to {left: 0px;}
 }
 
 @keyframes mymove2 {
