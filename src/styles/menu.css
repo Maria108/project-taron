@@ -1,0 +1,83 @@
+/* @import url('https://fonts.googleapis.com/css?family=Work+Sans'); */
+
+a {
+  color: #0f0f0f !important;
+  text-decoration: none;
+  margin: 0px !important;
+}
+
+a:hover {
+  color: rgba(69, 62, 62, 0.54) !important;
+  text-decoration: none;
+}
+
+a:focus {
+  color: rgba(69, 62, 62, 0.54) !important;
+  text-decoration: none;
+}
+
+.navbar {
+  /* position: relative; */
+  /* position: fixed; */
+  /* top: 0; */
+  /* width: 100%; */
+  /* margin-left: auto !important; */
+  margin-bottom: 0;
+  border-radius: 0;
+  /* font-family: 'Work Sans', sans-serif; */
+  font-size: 14px;
+  /* font-weight: bold; */
+  text-align: baseline;
+  /* border-bottom: 1px black solid; */
+  /* position: fixed; */
+  /* margin-top: 30px; */
+  background-color: white !important;
+}
+
+.navbar-links {
+  margin-left: auto !important;
+}
+
+/* @media (min-width: 750px) {
+  .navbar {
+    position: fixed !important;
+    top: 0;
+    z-index: 1;
+  }
+} */
+
+.navbar-default {
+  background-color: white;
+  /* position: fixed; */
+
+}
+
+.navbar-brand {
+  /* position: absolute; */
+  /* width: 100%;
+  left: 0;
+  top: 15px;
+  text-align: center;
+  padding: 0;
+  font-size: 30px;
+  color: black !important; */
+  font-size: 2rem !important;
+  font-family: 'Great Vibes', cursive;
+  /* margin-top: 30px !important; */
+
+}
+
+/* @media (max-width: 750px) {
+  .navbar-brand {
+    font-size: 1.5rem !important;
+  }
+} */
+
+.navbar-right {
+  margin-top: 30px !important;
+}
+
+.nav-item {
+  padding: 0px 20px;
+  /* text-align: justify; */
+}

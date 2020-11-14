@@ -1,0 +1,203 @@
+body {
+  /* background-color: #000; */
+}
+
+#first {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url('../images/bck.jpeg');
+  background-attachment: fixed;
+  height: 90vh;
+
+}
+
+.videoTag {
+  /* height: 60%; */
+  width: 100%;
+  float: right;
+  top: 0;
+  padding: none;
+  transform-origin: 100% 0;
+  /* transform: skew(-45deg); */
+  position: relative;
+}
+
+.first-section {
+  position: relative;
+  display: inline-block;
+  padding: 1em 5em 1em 1em;
+  overflow: hidden;
+  color: #fff;
+}
+
+.first-section:after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #000;
+  -webkit-transform-origin: 100% 0;
+  -ms-transform-origin: 100% 0;
+  transform-origin: 100% 0;
+  -webkit-transform: skew(-45deg);
+  -ms-transform: skew(-45deg);
+  transform: skew(-45deg);
+  z-index: -1;
+}
+
+.hello {
+  position: relative;
+  margin-top: 100px;
+  margin-left: 100px;
+  margin-right: 500px;
+  animation: mymove 3s;
+  animation-timing-function: ease;
+}
+
+.second-section-title {
+  text-align: center;
+  font-size: 20px;
+  padding-top: 30px;
+}
+
+.why-you-need {
+  text-align: justify;
+  font-size: 17px;
+  background-color: #ffffffde;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 20px 20px 5px 20px;
+  box-shadow: 0px 0px 10px -3px rgb(202, 193, 193);
+  color: black;
+  font-weight: 200;
+  position: relative;
+  height: 90%;
+  
+  /* animation-name: example; */
+  /* animation-duration: 4s; */
+  /* animation-iteration-count: infinite */
+}
+
+.why-you-need:hover {
+  animation-name: example;
+  animation-duration: 4s;
+}
+
+#div1 {
+  animation: mymove 5s;
+  animation-timing-function: ease;
+}
+
+#div2 {
+  animation: mymove2 5s;
+  animation-timing-function: ease;
+}
+
+#div3 {
+  animation: mymove3 5s;
+  animation-timing-function: ease;
+}
+
+@keyframes mymove {
+  from {left: -150px;}
+  to {left: 15px;}
+}
+
+@keyframes mymove2 {
+  from {top: -200px;}
+  to {top: 0;}
+}
+
+@keyframes mymove3 {
+  from {right: -200px;}
+  to {right: 0px;}
+}
+
+.second-section {
+  margin-bottom: 30px;
+  /* background-color: #000; */
+}
+
+@keyframes rotate {
+  50% {transform: rotate(180deg);}
+}
+
+@keyframes example {
+  0%   {background-color:#d6d4e0b6;}
+  25%  {background-color:#b8a9c973;}
+  50%  {background-color:#6225697e; transform: rotate(180deg);}
+  75%  {background-color:#b7d7e87a;}
+  100% {background-color:#87bdd888;}
+}
+
+.third-section {
+  background-image: url("../images/bck.jpeg");
+  background-attachment: fixed;
+  height: auto;
+  
+}
+
+.third-section-video {
+  margin-top: 40px;
+  height: 400px;
+  width: 100%;
+}
+
+.third-section-video-two {
+  height: 300px;
+  width: 100%;
+}
+
+.center {
+  justify-content: center;
+}
+
+.flip-card {
+  background-color: transparent;
+  width: 300px;
+  height: 280px;
+  perspective: 1000px;
+  margin: 10px;
+}
+
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.flip-card-front {
+  background-color: #b8a9c973;
+  color: black;
+}
+
+.flip-card-back {
+  justify-content: center;
+  padding: 10px;
+  background-color: #d6d4e0b6;
+  color: black;
+  transform: rotateY(180deg);
+}
+
+#fourth {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}

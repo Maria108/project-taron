@@ -1,0 +1,109 @@
+.footer {
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 100px;
+  background-color: white;
+  font-size: 17px;
+  font-weight: 300;
+  color: black;
+}
+
+.box-footer {
+  border-top: 1px solid rgba(0, 0, 0, 0.342);
+}
+
+.footer-contact-header {
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.footer-contact {
+  margin-top: 9px;
+  margin-bottom: 10px;
+}
+
+.footer-input-text {
+  border: 1px black solid;
+  box-shadow: 1px 1px 1px 0px #3871d38f;
+  border-bottom: 1px black solid;
+  border-top: none;
+  border-left: none;
+  height: 28px;
+  width: 224px;
+}
+
+@media (max-width: 770px) {
+  .footer-input-text {
+    width: 165px;
+  }
+}
+
+@media (max-width: 770px) {
+  .footer-input-name {
+    width: 50% !important;
+  }
+}
+
+.input-message {
+  border: 1px black solid;
+  width: 462px;
+  height: 110px;
+  box-shadow: 1px 1px 1px 0px #3871d38f;
+  margin-top: 7px;
+  border-bottom: 1px black solid;
+  border-top: none;
+  border-left: none;
+}
+
+@media (max-width: 770px) {
+  .input-message {
+    width: 350px;
+  }
+}
+
+.btn-form {
+  width: 100px;
+  height: 40px;
+  border-radius: 1px;
+  background-color: white !important;
+  cursor: pointer;
+  box-shadow: 1px 1px 1px 0px #3871d38f;
+}
+
+.let-connect {
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.instagram-icon-footer {
+  color: white;
+  font-size: 22px;
+  border-radius: 8px;
+  background-image: linear-gradient(-35deg, red, blue);
+}
+
+.div-book-apt {
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.book-apt {
+  border-radius: 5px;
+  border: 1px #2996cc solid;
+  padding: 10px;
+  background-color: #2996cc;
+  color: white !important;
+}
+
+.book-apt:hover {
+  text-decoration: none;
+  background-color: #4ba6d4;
+  color: white !important;
+}
+
+.fch {
+  float: right;
+  margin-right: 90px;
+}
