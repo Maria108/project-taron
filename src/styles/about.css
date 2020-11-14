@@ -181,14 +181,14 @@
 }
 
 .flip-card-front {
-  background-color: #b8a9c973;
+  background-color: rgb(247 208 202);
   color: black;
 }
 
 .flip-card-back {
   justify-content: center;
   padding: 10px;
-  background-color: #d6d4e0b6;
+  background-color: rgb(220 196 196);
   color: black;
   transform: rotateY(180deg);
 }
