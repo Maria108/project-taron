@@ -6,17 +6,17 @@ import SEO from "../components/seo"
 import "../styles/about.css"
 import "bootstrap/dist/css/bootstrap.css"
 import {
-  FaDrum,
+  FaGratipay,
   FaMusic,
-  FaGuitar,
+  FaBrain,
   FaGrinStars,
-  FaHeadphonesAlt,
-  FaHandMiddleFinger,
+  FaHotjar,
+  FaReact,
 } from "react-icons/fa"
 
 import { Container, Row, Col } from "reactstrap"
 // import sample from "../images/vid.mp4"
-// import lights from "../images/lights.mp4"
+import lights from "../images/lights.mp4"
 import Example from "./carousel"
 
 const IndexPage = () => (
@@ -25,9 +25,6 @@ const IndexPage = () => (
     <Container>
       <Row id="first">
         <Col xs={12} md={6}>
-          {/*<video className="videoTag" autoPlay loop muted>
-              <source src={sample} type="video/mp4" />
-            </video>*/}
           <div className="hello">
             <h1>Hi people </h1>
             <p>
@@ -44,6 +41,7 @@ const IndexPage = () => (
             </p>
           </div>
         </Col>
+        <Col xs={12} md={6} id="pic-first"></Col>
       </Row>
       <Row className="second-section-title" id="second">
         <Col md={12}>WHY YOU NEED THIS CLASS</Col>
@@ -53,7 +51,7 @@ const IndexPage = () => (
           <div class="flip-card">
             <div class="flip-card-inner">
               <div class="flip-card-front">
-                <FaDrum style={{ marginTop: "20%", fontSize: "120px" }} />
+                <FaGratipay style={{ marginTop: "20%", fontSize: "120px" }} />
               </div>
               <div class="flip-card-back">
                 <p>
@@ -110,9 +108,7 @@ const IndexPage = () => (
           <div class="flip-card">
             <div class="flip-card-inner">
               <div class="flip-card-front">
-                <FaHeadphonesAlt
-                  style={{ marginTop: "20%", fontSize: "120px" }}
-                />
+                <FaHotjar style={{ marginTop: "20%", fontSize: "120px" }} />
               </div>
               <div class="flip-card-back">
                 <p>
@@ -130,9 +126,7 @@ const IndexPage = () => (
           <div class="flip-card">
             <div class="flip-card-inner">
               <div class="flip-card-front">
-                <FaHandMiddleFinger
-                  style={{ marginTop: "20%", fontSize: "120px" }}
-                />
+                <FaReact style={{ marginTop: "20%", fontSize: "120px" }} />
               </div>
               <div class="flip-card-back">
                 <p>
@@ -150,7 +144,7 @@ const IndexPage = () => (
           <div class="flip-card">
             <div class="flip-card-inner">
               <div class="flip-card-front">
-                <FaGuitar style={{ marginTop: "20%", fontSize: "120px" }} />
+                <FaBrain style={{ marginTop: "20%", fontSize: "120px" }} />
               </div>
               <div class="flip-card-back">
                 <p>
@@ -166,33 +160,159 @@ const IndexPage = () => (
         </Col>
       </Row>
 
-      {/*<Row className="third-section" id="third">
-        <Row className="center">
-          <Col xs={12} md={12}>
-            <video className="third-section-video" autoPlay loop muted>
-              <source src={lights} type="video/mp4" />
-            </video>
-          </Col>
-        </Row>
-        <Row className="center">
-          <Col xs={12} md={4}>
-            <video className="third-section-video-two" autoPlay loop muted>
-              <source src={lights} type="video/mp4" />
-            </video>
-          </Col>
-          <Col xs={12} md={4}>
-            <video className="third-section-video-two" autoPlay loop muted>
-              <source src={lights} type="video/mp4" />
-            </video>
-          </Col>
+      <Row className="second-section-title" id="third">
+        <Col xs={12} md={12}>
+          SOME TEXT HERE
+        </Col>
+      </Row>
 
-          video className="videoTag" autoPlay loop muted>
-          <source src={lights} type="video/mp4" />
-        </video>
-        </Row>
-      </Row> */}
-
-      <Row id="fourth">
+      <Row className="center">
+        <Col xs={12} md={4}>
+          <iframe
+            src="https://www.youtube.com/embed/E7wJTI-1dvQ"
+            frameborder="0"
+            allow="autoplay; encrypted-media"
+            allowfullscreen
+            title="video"
+          />
+        </Col>
+        <Col xs={12} md={4}>
+          <iframe
+            src="https://www.youtube.com/embed/E7wJTI-1dvQ"
+            frameborder="0"
+            allow="autoplay; encrypted-media"
+            allowfullscreen
+            title="video"
+          />
+        </Col>
+        <Col xs={12} md={4}>
+          <iframe
+            src="https://www.youtube.com/embed/E7wJTI-1dvQ"
+            frameborder="0"
+            allow="autoplay; encrypted-media"
+            allowfullscreen
+            title="video"
+          />
+        </Col>
+      </Row>
+      <Row className="center">
+        <Col xs={12} md={4}>
+          <iframe
+            src="https://www.youtube.com/embed/E7wJTI-1dvQ"
+            frameborder="0"
+            allow="autoplay; encrypted-media"
+            allowfullscreen
+            title="video"
+          />
+        </Col>
+        <Col xs={12} md={4}>
+          <iframe
+            src="https://www.youtube.com/embed/E7wJTI-1dvQ"
+            frameborder="0"
+            allow="autoplay; encrypted-media"
+            allowfullscreen
+            title="video"
+          />
+        </Col>
+        <Col xs={12} md={4}>
+          <iframe
+            src="https://www.youtube.com/embed/E7wJTI-1dvQ"
+            frameborder="0"
+            allow="autoplay; encrypted-media"
+            allowfullscreen
+            title="video"
+          />
+        </Col>
+      </Row>
+      <Row className="center">
+        <Col xs={12} md={4}>
+          <iframe
+            src="https://www.youtube.com/embed/E7wJTI-1dvQ"
+            frameborder="0"
+            allow="autoplay; encrypted-media"
+            allowfullscreen
+            title="video"
+          />
+        </Col>
+        <Col xs={12} md={4}>
+          <iframe
+            src="https://www.youtube.com/embed/E7wJTI-1dvQ"
+            frameborder="0"
+            allow="autoplay; encrypted-media"
+            allowfullscreen
+            title="video"
+          />
+        </Col>
+        <Col xs={12} md={4}>
+          <iframe
+            src="https://www.youtube.com/embed/E7wJTI-1dvQ"
+            frameborder="0"
+            allow="autoplay; encrypted-media"
+            allowfullscreen
+            title="video"
+          />
+        </Col>
+      </Row>
+      <Row className="second-section-title" id="fourth">
+        <Col xs={12} md={12}>
+          SOME TEXT HERE
+        </Col>
+      </Row>
+      <Row>
+        <Col xs={12} md={6}>
+          <p>
+            Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry. Lorem Ipsum has been the industry's standard dummy text
+            ever since the 1500s, when an unknown printer took a galley of type
+            and scrambled it to make a type specimen book. Lorem Ipsum is simply
+            dummy text of the printing and typesetting industry. Lorem Ipsum has
+            been the industry's standard dummy text ever since the 1500s, when
+            an unknown printer took a galley of type and scrambled it to make a
+            type specimen book. Lorem Ipsum is simply dummy text of the printing
+            and typesetting industry. Lorem Ipsum has been the industry's
+            standard dummy text ever since the 1500s, when an unknown printer
+            took a galley of type and scrambled it to make a type specimen book.
+            Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry. Lorem Ipsum has been the industry's standard dummy text
+            ever since the 1500s, when an unknown printer took a galley of type
+            and scrambled it to make a type specimen book. Lorem Ipsum is simply
+            dummy text of the printing and typesetting industry. Lorem Ipsum has
+            been the industry's standard dummy text ever since the 1500s, when
+            an unknown printer took a galley of type and scrambled it to make a
+            type specimen book. Lorem Ipsum is simply dummy text of the printing
+            and typesetting industry. Lorem Ipsum has been the industry's
+            standard dummy text ever since the 1500s, when an unknown printer
+            took a galley of type and scrambled it to make a type specimen book.
+          </p>
+        </Col>
+        <Col xs={12} md={6}>
+          <p>
+            Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry. Lorem Ipsum has been the industry's standard dummy text
+            ever since the 1500s, when an unknown printer took a galley of type
+            and scrambled it to make a type specimen book. Lorem Ipsum is simply
+            dummy text of the printing and typesetting industry. Lorem Ipsum has
+            been the industry's standard dummy text ever since the 1500s, when
+            an unknown printer took a galley of type and scrambled it to make a
+            type specimen book. Lorem Ipsum is simply dummy text of the printing
+            and typesetting industry. Lorem Ipsum has been the industry's
+            standard dummy text ever since the 1500s, when an unknown printer
+            took a galley of type and scrambled it to make a type specimen book.
+            Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry. Lorem Ipsum has been the industry's standard dummy text
+            ever since the 1500s, when an unknown printer took a galley of type
+            and scrambled it to make a type specimen book. Lorem Ipsum is simply
+            dummy text of the printing and typesetting industry. Lorem Ipsum has
+            been the industry's standard dummy text ever since the 1500s, when
+            an unknown printer took a galley of type and scrambled it to make a
+            type specimen book. Lorem Ipsum is simply dummy text of the printing
+            and typesetting industry. Lorem Ipsum has been the industry's
+            standard dummy text ever since the 1500s, when an unknown printer
+            took a galley of type and scrambled it to make a type specimen book.
+          </p>
+        </Col>
+      </Row>
+      <Row id="fifth">
         <Col>
           <Example />
         </Col>

@@ -18,6 +18,15 @@
   position: relative;
 }
 
+#pic-first {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url('../images/p1.jpeg');
+  background-attachment: fixed;
+  /* height: 90vh; */
+  /* margin-top: 20px; */
+}
+
 .first-section {
   position: relative;
   display: inline-block;
@@ -128,21 +137,22 @@
   100% {background-color:#87bdd888;}
 }
 
-.third-section {
+/* .third-section {
   background-image: url("../images/bck.jpeg");
   background-attachment: fixed;
   height: auto;
   
-}
+} */
 
 .third-section-video {
-  margin-top: 40px;
-  height: 400px;
+  margin-top: 10px;
+  height: 100px;
   width: 100%;
 }
 
 .third-section-video-two {
-  height: 300px;
+  margin-top: 10px;
+  height: 100px;
   width: 100%;
 }
 

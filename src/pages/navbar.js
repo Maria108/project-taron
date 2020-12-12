@@ -41,11 +41,17 @@ export default class NavbarMenu extends React.Component {
                 <NavItem>
                   <Link to="/#second">WHY YOU NEED</Link>
                 </NavItem>
+                <NavItem>
+                  <Link to="/#third">THIRD</Link>
+                </NavItem>
+                <NavItem>
+                  <Link to="/#fourth">FOURTH</Link>
+                </NavItem>
                 {/*<NavItem>
                   <Link to="/#third">VIDEO</Link>
                 </NavItem>*/}
                 <NavItem>
-                  <Link to="/#fourth">TESTIMONIALS</Link>
+                  <Link to="/#fifth">TESTIMONIALS</Link>
                 </NavItem>
               </Nav>
             </Collapse>
