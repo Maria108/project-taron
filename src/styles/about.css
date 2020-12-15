@@ -3,7 +3,7 @@
   background-size: cover;
   background-image: url('../images/bm.jpg');
   background-attachment: fixed;
-  height: 70vh;
+  height: auto;
   margin-top: 20px;
 }
 
