@@ -12,18 +12,23 @@ import "../styles/carousel.css"
 const items = [
   {
     id: 1,
-    altText: "Best class I've ever took. Best class I've ever took",
-    caption: "Brian S",
+    altText: "Live the life you love. Love the life you live.",
+    caption: "Bob Marley",
   },
   {
     id: 2,
-    altText: "My favorite class. Best class I've ever took",
-    caption: "John T",
+    altText: "Singing I forget my sorrows and displeasures as well.",
+    caption: "Hector Lavoe",
   },
   {
     id: 3,
-    altText: "Can't wait to have this class. Best class I've ever took",
-    caption: "Carla K",
+    altText: "This class is going to change your life.",
+    caption: "Christopher Washburne",
+  },
+  {
+    id: 4,
+    altText: "Legalize it, and I will advertise it.",
+    caption: "Peter Tosh",
   },
 ]
 

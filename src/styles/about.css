@@ -1,159 +1,33 @@
 #first {
   background-repeat: no-repeat;
   background-size: cover;
-  background-image: url('../images/bck.jpeg');
+  background-image: url('../images/bm.jpg');
   background-attachment: fixed;
-  height: 90vh;
+  height: 70vh;
   margin-top: 20px;
 }
 
-.videoTag {
-  /* height: 60%; */
-  width: 100%;
-  float: right;
-  top: 0;
-  padding: none;
-  transform-origin: 100% 0;
-  /* transform: skew(-45deg); */
-  position: relative;
+.first-section-header {
+  margin-top: 60px;
+  color: black;
+  text-align: center;
 }
 
-#pic-first {
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-image: url('../images/p1.jpeg');
-  background-attachment: fixed;
-  /* height: 90vh; */
-  /* margin-top: 20px; */
-}
-
-.first-section {
-  position: relative;
-  display: inline-block;
-  padding: 1em 5em 1em 1em;
-  overflow: hidden;
-  color: #fff;
-}
-
-.first-section:after {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: #000;
-  -webkit-transform-origin: 100% 0;
-  -ms-transform-origin: 100% 0;
-  transform-origin: 100% 0;
-  -webkit-transform: skew(-45deg);
-  -ms-transform: skew(-45deg);
-  transform: skew(-45deg);
-  z-index: -1;
-}
-
-.hello {
-  position: relative;
-  margin-top: 90px;
-  margin-left: 50px;
-  /* margin-right: 500px; */
-  animation: mymove 3s;
-  animation-timing-function: ease;
+.first-p {
+  text-align: justify;
+    font-size: 17px;
+    background-color: hsl(0deg 0% 100% / 75%);
+    margin: 50px 35px 10px 35px;
+    padding: 20px 20px 5px;
+    box-shadow: 0 0 10px -3px #000;
+    color: #000;
+    font-weight: 200;
 }
 
 .second-section-title {
   text-align: center;
   font-size: 20px;
-  padding-top: 30px;
-}
-
-.why-you-need {
-  text-align: justify;
-  font-size: 17px;
-  background-color: #ffffffde;
-  margin-top: 10px;
-  margin-bottom: 10px;
-  padding: 20px 20px 5px 20px;
-  box-shadow: 0px 0px 10px -3px rgb(202, 193, 193);
-  color: black;
-  font-weight: 200;
-  position: relative;
-  height: 90%;
-  
-  /* animation-name: example; */
-  /* animation-duration: 4s; */
-  /* animation-iteration-count: infinite */
-}
-
-.why-you-need:hover {
-  animation-name: example;
-  animation-duration: 4s;
-}
-
-#div1 {
-  animation: mymove 5s;
-  animation-timing-function: ease;
-}
-
-#div2 {
-  animation: mymove2 5s;
-  animation-timing-function: ease;
-}
-
-#div3 {
-  animation: mymove3 5s;
-  animation-timing-function: ease;
-}
-
-@keyframes mymove {
-  from {left: -150px;}
-  to {left: 0px;}
-}
-
-@keyframes mymove2 {
-  from {top: -200px;}
-  to {top: 0;}
-}
-
-@keyframes mymove3 {
-  from {right: -200px;}
-  to {right: 0px;}
-}
-
-.second-section {
-  margin-bottom: 30px;
-  /* background-color: #000; */
-}
-
-@keyframes rotate {
-  50% {transform: rotate(180deg);}
-}
-
-@keyframes example {
-  0%   {background-color:#d6d4e0b6;}
-  25%  {background-color:#b8a9c973;}
-  50%  {background-color:#6225697e; transform: rotate(180deg);}
-  75%  {background-color:#b7d7e87a;}
-  100% {background-color:#87bdd888;}
-}
-
-/* .third-section {
-  background-image: url("../images/bck.jpeg");
-  background-attachment: fixed;
-  height: auto;
-  
-} */
-
-.third-section-video {
-  margin-top: 10px;
-  height: 100px;
-  width: 100%;
-}
-
-.third-section-video-two {
-  margin-top: 10px;
-  height: 100px;
-  width: 100%;
+  padding: 20px;
 }
 
 .center {
@@ -191,14 +65,14 @@
 }
 
 .flip-card-front {
-  background-color: rgb(247 208 202);
+  background-color: #587baa;
   color: black;
 }
 
 .flip-card-back {
   justify-content: center;
   padding: 10px;
-  background-color: rgb(220 196 196);
+  background-color: #D5F3FE;
   color: black;
   transform: rotateY(180deg);
 }
@@ -206,4 +80,26 @@
 #fourth {
   margin-top: 20px;
   margin-bottom: 20px;
+}
+
+.reg-section {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url('../images/reg.jpeg');
+  /* background-attachment: fixed; */
+}
+
+.reg-salsa-sec {
+  text-align: justify;
+  font-size: 17px;
+  background-color: hsl(0deg 0% 100% / 75%);
+  /* margin: 5px; */
+  padding: 20px 20px 5px;
+  box-shadow: 0 0 10px -3px #000;
+  color: #000;
+  font-weight: 200;
+}
+
+#fifth {
+  margin: 10px 0px;
 }

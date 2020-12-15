@@ -2,7 +2,7 @@ import React from "react"
 import "../styles/footer.css"
 import { Row, Col, Grid } from "react-bootstrap"
 
-import { FaMapMarkerAlt, FaPhone, FaInstagram } from "react-icons/fa"
+import { FaMapMarkerAlt, FaInstagram } from "react-icons/fa"
 
 const Footer = () => (
   <footer className="footer">
