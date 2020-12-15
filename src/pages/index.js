@@ -18,7 +18,17 @@ import Example from "./carousel"
 
 const IndexPage = () => (
   <Layout>
-    <SEO title="Home" />
+    <SEO
+      title="Home"
+      keywords={[
+        `salsa`,
+        `soca`,
+        `reggae`,
+        `class`,
+        `columbia university`,
+        `salsa soca reggae`,
+      ]}
+    />
     <Container>
       <Row>
         <Col xs={12} md={12}>

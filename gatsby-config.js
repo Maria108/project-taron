@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: `Salsa`,
+    title: `Salsa Soca Reggae`,
     description: `Salsa class at Columbia University`,
     author: `@gatsbyjs`,
   },
