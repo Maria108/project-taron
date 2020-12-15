@@ -63,7 +63,7 @@ const Example = props => {
         onExited={() => setAnimating(false)}
       >
         <CarouselCaption
-          className="text-carousel"
+          className="text-carousel custom-text"
           captionText={item.caption}
           captionHeader={item.altText}
         />
@@ -73,6 +73,11 @@ const Example = props => {
 
   return (
     <div>
+      <style>
+        {`.custom-text {
+          display: block !important;
+        }`}
+      </style>
       <Carousel activeIndex={activeIndex} next={next} previous={previous}>
         <CarouselIndicators
           items={items}

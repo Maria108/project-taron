@@ -7,6 +7,13 @@
   margin-top: 20px;
 }
 
+@media (max-width: 750px) {
+  #first {
+    background-repeat: repeat;
+    background-size: contain;
+  }
+}
+
 .first-section-header {
   margin-top: 60px;
   color: black;
